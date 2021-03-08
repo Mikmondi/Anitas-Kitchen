@@ -16,11 +16,24 @@ margin-bottom: 0;
     height: 100px;
     width: 300px;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(228, 210, 210);
     display: flex;
     padding: 3opx;
     margin-top: 0;
     padding-right: 10px;
+    margin-bottom: 0;
     
     
+}
+#party {
+    margin: 30px;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    background-color:rgb(218, 96, 47);
+    display: flex;
+    margin-top: 0;
+    padding-right: 10px;
+    color: white;
+    flex-wrap: wrap;
 }
