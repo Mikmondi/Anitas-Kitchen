@@ -1,0 +1,20 @@
+#image {
+    background-image: url("/Backgrounds/landing.jpg");
+height: 400px;
+padding: 30px;
+background-size: cover;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 30px;
+color: white;
+
+}
+#Happy {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+}
