@@ -76,3 +76,9 @@ img{
     margin: 100px;
     background-size: cover;
 }
+table {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+
+}
