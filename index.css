@@ -10,53 +10,53 @@ margin: 100px;
 color: white;
 margin-bottom: 0;
 text-align: center;
-
-
 }
+.note{
+    display: flex;
+    margin: inherit;
+    justify-content: stretch;
+}
+
 #Happy {
     margin: 100px;
     height: 100px;
-    width: 300px;
+    width: 250px;
     text-align: center;
     background-color: rgb(228, 210, 210);
-    padding: 3opx;
     margin-top: 0;
-    padding-right: 10px;
     margin-bottom: 0;
     margin-right: 0;
     
     
     
+    
 }
-.note{
-    flex-direction: row;
-    display: flexbox;
-}
+
 #party {
-    margin: 100px;
+    
     height: 100px;
-    width: 300px;
+    width: 250px;
     text-align: center;
     background-color:rgb(218, 96, 47);
     margin-top: 0;
     color: white;
+    margin: 100px;
+    margin-top: 0;
     margin-right: 0;
     
 }
 #breakfast {
     background-image: url("/foodtop/breakfast.jpg");
     height: 200px;
-    width: 300px;
-    margin-top: 0;
-    margin: 100px;
-    float: left;
+    width: 250px;
+    float: inline-start;
+
 
 }
 #lunch {
     background-image: url("/foodtop/lunch.jpg");
     height: 200px;
-    width: 300px;
-    float: left;
+    width: 263px;
     text-align: center;
 
 }
@@ -64,22 +64,44 @@ text-align: center;
     background-image: url("/foodtop/dinner.jpg");
     height: 200px;
     width: 300px;
-    float: right;
     text-align: center;
 }
-img{
-    margin-left: 50px;
+.fast1{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px solid rgb(19, 18, 18);
+    flex-wrap: wrap;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+.fast2{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 800px;
+    box-shadow: 5px 5px 5px solid rgb(19, 18, 18);
+    flex-wrap: wrap;
+    border: 2px solid grey;
 }
 .back {
     background-image: url("/Backgrounds/foodsBg.jpg");
     height: 400px;
-    margin: 100px;
+    margin: 200px;
     background-size: cover;
 }
-table {
+.front {
     padding: 10px;
     background-color: white;
     text-align: center;
+    color: red;
+    height: 200px;
+    width: 100px;
+
 
 }
 .foot {
@@ -103,4 +125,11 @@ table {
     margin-top: 0;
     text-align: center;
     padding-bottom: 30px;
+}
+th, td{
+    padding: 10px;
+}
+th {
+    border: 1px solid grey;
+    background-color: grey;
 }
