@@ -1,39 +1,72 @@
+
+    
+
 #image {
     background-image: url("/Backgrounds/landing.jpg");
-height: 400px;
+
 padding: 30px;
 background-size: cover;
-display: flex;
-justify-content: center;
-text-align: center;
-margin: 30px;
+margin: 100px;
 color: white;
 margin-bottom: 0;
+text-align: center;
+
 
 }
 #Happy {
-    margin: 30px;
+    margin: 100px;
     height: 100px;
     width: 300px;
     text-align: center;
     background-color: rgb(228, 210, 210);
-    display: flex;
     padding: 3opx;
     margin-top: 0;
     padding-right: 10px;
     margin-bottom: 0;
+    margin-right: 0;
+    
     
     
 }
+.note{
+    flex-direction: row;
+    display: flexbox;
+}
 #party {
-    margin: 30px;
+    margin: 100px;
     height: 100px;
     width: 300px;
     text-align: center;
     background-color:rgb(218, 96, 47);
-    display: flex;
     margin-top: 0;
-    padding-right: 10px;
     color: white;
-    flex-wrap: wrap;
+    margin-right: 0;
+    
+}
+#breakfast {
+    background-image: url("/foodtop/breakfast.jpg");
+    height: 200px;
+    width: 300px;
+    margin-top: 0;
+    margin: 100px;
+    float: left;
+
+}
+#lunch {
+    background-image: url("/foodtop/lunch.jpg");
+    height: 200px;
+    width: 300px;
+    float: left;
+    text-align: center;
+
+}
+#dinner {
+    background-image: url("/foodtop/dinner.jpg");
+    height: 200px;
+    width: 300px;
+    float: right;
+    text-align: center;
+}
+img{
+    margin-left: 50px;
 }
