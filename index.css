@@ -73,4 +73,6 @@ img{
 .back {
     background-image: url("/Backgrounds/foodsBg.jpg");
     height: 400px;
+    margin: 100px;
+    background-size: cover;
 }
