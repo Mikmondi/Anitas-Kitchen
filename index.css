@@ -8,13 +8,19 @@ justify-content: center;
 text-align: center;
 margin: 30px;
 color: white;
+margin-bottom: 0;
 
 }
 #Happy {
-    margin: 10px;
+    margin: 30px;
     height: 100px;
-    width: 100px;
+    width: 300px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: grey;
     display: flex;
+    padding: 3opx;
+    margin-top: 0;
+    padding-right: 10px;
+    
+    
 }
