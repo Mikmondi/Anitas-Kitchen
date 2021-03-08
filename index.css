@@ -82,3 +82,25 @@ table {
     text-align: center;
 
 }
+.foot {
+    background-image: url("/Backgrounds/subscribe.jpg");
+    height: 200px;
+    margin: 100px;
+    background-size: cover;
+    flex: 50%;
+    float: down;
+    margin-bottom: 0;
+    text-align: center;
+}
+.merge {
+    flex: display;
+}
+.last {
+    float: up;
+    flex: 50%;
+    background-color: tomato;
+    margin: 100px ;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
