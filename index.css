@@ -4,26 +4,20 @@
 #image {
     background-image: url("/Backgrounds/landing.jpg");
 
-padding: 30px;
 background-size: cover;
-margin: 100px;
 color: white;
 margin-bottom: 0;
 text-align: center;
 }
 .note{
     display: flex;
-    margin: inherit;
-    justify-content: stretch;
 }
 
 #Happy {
-    margin: 100px;
     height: 100px;
-    width: 250px;
+    width: 315px;
     text-align: center;
     background-color: rgb(228, 210, 210);
-    margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
     
@@ -35,35 +29,31 @@ text-align: center;
 #party {
     
     height: 100px;
-    width: 250px;
+    width: 315px;
     text-align: center;
     background-color:rgb(218, 96, 47);
     margin-top: 0;
     color: white;
-    margin: 100px;
-    margin-top: 0;
-    margin-right: 0;
     
 }
 #breakfast {
     background-image: url("/foodtop/breakfast.jpg");
     height: 200px;
-    width: 250px;
-    float: inline-start;
+    width: 315px;
 
 
 }
 #lunch {
     background-image: url("/foodtop/lunch.jpg");
     height: 200px;
-    width: 263px;
+    width: 315px;
     text-align: center;
 
 }
 #dinner {
     background-image: url("/foodtop/dinner.jpg");
     height: 200px;
-    width: 300px;
+    width: 315px;
     text-align: center;
 }
 .fast1{
