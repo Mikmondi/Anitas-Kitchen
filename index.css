@@ -79,7 +79,7 @@ main {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    height: 1000px;
+    height: 900px;
     top: 700px;
 
 }
@@ -119,12 +119,22 @@ main {
     box-shadow: 0px 0px 5px black;
     margin-left: 30px;
 }
-.burger {
-    display: flex;
-}
-.back {
+    
+ .back {
     background-image: url("/Backgrounds/foodsBg.jpg");
     background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    padding: 70px;
+    opacity: 0.9;
+
+}
+.white {
+    background-color: beige;
+    margin: 20px;
 }
 .front {
     padding: 10px;
@@ -137,15 +147,13 @@ main {
 .foot {
     background-image: url("/Backgrounds/subscribe.jpg");
     background-size: cover;
-    float: down;
-    margin-bottom: 0;
     text-align: center;
+    bottom: 0%;
 }
 .merge {
     flex: display;
 }
 .last {
-    float: up;
     background-color: tomato;
     margin-top: 0;
     text-align: center;
@@ -156,4 +164,4 @@ th, td{
 th {
     border: 1px solid grey;
     background-color: grey;
-} 
+}  
