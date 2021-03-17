@@ -1,21 +1,25 @@
 
     
-
+body {
+    width: 1000px;
+}
 #image {
     background-image: url("/Backgrounds/landing.jpg");
 
 background-size: cover;
 color: white;
-margin-bottom: 0;
+padding-bottom: 20px;
 text-align: center;
+width: 1000px;
 }
 .note{
     display: flex;
+    
 }
 
 #Happy {
     height: 100px;
-    width: 315px;
+    width: 250px;
     text-align: center;
     background-color: rgb(228, 210, 210);
     margin-bottom: 0;
@@ -29,7 +33,7 @@ text-align: center;
 #party {
     
     height: 100px;
-    width: 315px;
+    width: 250px;
     text-align: center;
     background-color:rgb(218, 96, 47);
     margin-top: 0;
@@ -39,21 +43,21 @@ text-align: center;
 #breakfast {
     background-image: url("/foodtop/breakfast.jpg");
     height: 200px;
-    width: 315px;
+    width: 250px;
 
 
 }
 #lunch {
     background-image: url("/foodtop/lunch.jpg");
     height: 200px;
-    width: 315px;
+    width: 250px;
     text-align: center;
 
 }
 #dinner {
     background-image: url("/foodtop/dinner.jpg");
     height: 200px;
-    width: 315px;
+    width: 250px;
     text-align: center;
 }
 .fast1{
@@ -97,7 +101,6 @@ text-align: center;
 .foot {
     background-image: url("/Backgrounds/subscribe.jpg");
     height: 200px;
-    margin: 100px;
     background-size: cover;
     flex: 50%;
     float: down;
@@ -111,7 +114,6 @@ text-align: center;
     float: up;
     flex: 50%;
     background-color: tomato;
-    margin: 100px ;
     margin-top: 0;
     text-align: center;
     padding-bottom: 30px;
