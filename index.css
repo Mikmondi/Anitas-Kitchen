@@ -8,6 +8,7 @@ text-align: center;
 width: 100%;
 margin-left: 10%;
 margin-right: 10%;
+overflow: hidden;
 }
 .note {
     display: flex;
@@ -22,11 +23,12 @@ margin-right: 10%;
     height: 20%;
     margin-left: 10%;
     margin-right: 10%;
-    
+    overflow: hidden;
 }
 .note >div {
     border: 1px;
     width: 25%;
+    overflow: hidden;
 }
 .time >div {
     display: flex;
